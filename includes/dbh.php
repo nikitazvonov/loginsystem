@@ -1,5 +1,10 @@
 <?php
 
+namespace Includes;
+
+use PDO;
+use PDOException;
+
 $host = 'localhost';
 $dbname = 'loginsystem';
 $dbuser = 'root';
